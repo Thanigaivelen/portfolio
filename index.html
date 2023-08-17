@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class='main'>
+        
+      <nav class='navBar'>
+        <h1>THANIGAIVELEN Portfolio</h1>
+       
+        <div class='navigationMenu'>
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Let's Connect!</a>
+        <div>
+      </nav>
+      <section class='heroSection'>
+        <img 
+        class='profileImage'
+        src='https://www.w3schools.com/howto/img_avatar.png'/>
+        <div class='herosectionDetails'>
+          <h1>THANIGAIVELEN </h1>
+          <h3>FRONT END Developer</h3>
+        </div>
+      </section>
+      <section class='aboutMe' id='aboutMe'>
+        <h1>What I Do...</h1>
+        <p>Some basic details can be added hear regarding what you are realy known for. What you have done in your past job experience. Why do  you think you are doing well and more compatible with respect to other users and creators. Some basic details can be added hear regarding what you are realy known for. What you have done in your past job experience. Why do  you think you are doing well and more compatible with respect to other users and creators. Some basic details can be added hear regarding what you are realy known for. What you have done in your past job experience. Why do  you think you are doing well and more compatible with respect to other users and creators.</p>
+      </section>
+      <section class='skillsAndProjects'>
+        <div class='skills' id='skills'>
+          <h1 class='cardHeading'>Skills</h1>
+          <img title='HTML' src='https://www.svgrepo.com/show/92063/html.svg'>
+          <img title='CSS' src='https://www.svgrepo.com/show/249763/css.svg'>
+          <img title='Javascript' src='https://www.svgrepo.com/show/78140/java-script-logo.svg'>
+          <img title='Node.JS' src='https://www.svgrepo.com/show/314392/node.svg'>
+          <img title='React' src='https://www.svgrepo.com/show/342156/react.svg'>
+          <img title='MongoDB' src='https://www.svgrepo.com/show/306440/mongodb.svg'>
+          <img title='Firebase' src='https://www.svgrepo.com/show/327361/logo-firebase.svg'>
+          <img  title='Git' src="https://www.svgrepo.com/show/509966/git.svg">
+          <img  title='GitHub' src="https://www.svgrepo.com/show/509967/github.svg">
+        </div>
+        <div class='projects' id='projects'>
+          <h1 class='cardHeading'>Projects</h1>
+          <div class='projectContainer'>
+            <img src='https://www.svgrepo.com/show/240314/css.svg'/>
+            <div class='projectDescription'>
+              <h4>Project Name</h4>
+              <p>Some details of the project.Some details of the project.Some details of the project.</p>
+            </div>
+          </div>
+          <div class='projectContainer'>
+            <img src='https://www.svgrepo.com/show/240314/css.svg'/>
+            <div class='projectDescription'>
+              <h4>Project Name</h4>
+              <p>Some details of the project</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <form action="mailto:thanigaivelen2002@gmail.com" method="post" enctype="text/plain">
+      <section class='contactForm' id='contactForm'>
+        <h1>Let's Connect!</h2>
+        <div class='formGroup'>
+            
+          <label for='name'>Enter Full Name</label>
+          
+          <input type='text' id='name' placeholder='Full Name'/>
+          
+            
+       
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br/>
+          <input type='text' id='email' placeholder='Email'/>
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br/>
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <button class='submitButton' type="submit">Connect</button>
+      </section>
+      </form>
+    </main>
+   
+  </body>
+</html>
